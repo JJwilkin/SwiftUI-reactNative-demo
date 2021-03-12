@@ -4,6 +4,12 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Need Dat Fam</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Lowe Dat Styll</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleDisplayName</key>
 	<string>SimpleReactNative</string>
 	<key>CFBundleExecutable</key>

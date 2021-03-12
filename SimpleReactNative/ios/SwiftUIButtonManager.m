@@ -11,16 +11,16 @@
 RCT_EXPORT_MODULE()
 
 // MARK: Count property
-RCT_EXPORT_SWIFTUI_PROPERTY(count, int, SwiftUIButtonProxy);
+//RCT_EXPORT_SWIFTUI_PROPERTY(count, int, SwiftUIButtonProxy);
 
 // MARK: onCountChange property
-RCT_EXPORT_SWIFTUI_CALLBACK(onCountChange, RCTDirectEventBlock, SwiftUIButtonProxy);
+//RCT_EXPORT_SWIFTUI_CALLBACK(onCountChange, RCTDirectEventBlock, SwiftUIButtonProxy);
 
 - (UIView *)view {
   SwiftUIButtonProxy *proxy = [[SwiftUIButtonProxy alloc] init];
   UIView *view = [proxy view];
-  NSMutableDictionary *storage = [SwiftUIButtonProxy storage];
-  storage[[NSValue valueWithNonretainedObject:view]] = proxy;
+//  NSMutableDictionary *storage = [SwiftUIButtonProxy storage];
+//  storage[[NSValue valueWithNonretainedObject:view]] = proxy;
   return view;
 }
 

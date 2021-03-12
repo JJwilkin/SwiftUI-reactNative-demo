@@ -1,16 +1,24 @@
 import React, {useState} from 'react';
-import {requireNativeComponent, SafeAreaView} from 'react-native';
+import {requireNativeComponent, SafeAreaView, Text, View, Button} from 'react-native';
 
 const SwiftUIButton = requireNativeComponent('SwiftUIButton');
 
 const App: () => React$Node = () => {
   const [count, updateCount] = React.useState(0);
   return (
-    <SwiftUIButton
+    
+    <SafeAreaView>
+      <View style={styles.container}>
+        <Text>"Hi There</Text>
+      </View>
+      <View style={styles.container}>
+      <SwiftUIButton
       style={styles.container}
       count={count}
       onCountChange={e => updateCount(e.nativeEvent.count)}
     />
+      </View>
+    </SafeAreaView>
   );
 };
 

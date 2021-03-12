@@ -15,6 +15,7 @@
 		154CC11125F744E400B10785 /* SwiftUIButtonProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CC11025F744E400B10785 /* SwiftUIButtonProxy.swift */; };
 		154CC11825F7459800B10785 /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CC11725F7459800B10785 /* SwiftUIButton.swift */; };
 		154CC11E25F746C300B10785 /* SwiftUIButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 154CC11D25F746C300B10785 /* SwiftUIButtonManager.m */; };
+		154CC18A25F756EC00B10785 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CC18925F756EC00B10785 /* CameraView.swift */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -57,6 +58,7 @@
 		154CC11025F744E400B10785 /* SwiftUIButtonProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonProxy.swift; sourceTree = "<group>"; };
 		154CC11725F7459800B10785 /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
 		154CC11D25F746C300B10785 /* SwiftUIButtonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftUIButtonManager.m; sourceTree = "<group>"; };
+		154CC18925F756EC00B10785 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SimpleReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SimpleReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1A0F7891A9A647CBF08A00 /* Pods-SimpleReactNative-SimpleReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleReactNative-SimpleReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleReactNative-SimpleReactNativeTests/Pods-SimpleReactNative-SimpleReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				154CC10F25F744E400B10785 /* SimpleReactNative-Bridging-Header.h */,
 				154CC11725F7459800B10785 /* SwiftUIButton.swift */,
 				154CC11D25F746C300B10785 /* SwiftUIButtonManager.m */,
+				154CC18925F756EC00B10785 /* CameraView.swift */,
 			);
 			name = SimpleReactNative;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				154CC11825F7459800B10785 /* SwiftUIButton.swift in Sources */,
 				154CC11E25F746C300B10785 /* SwiftUIButtonManager.m in Sources */,
 				154CC11125F744E400B10785 /* SwiftUIButtonProxy.swift in Sources */,
+				154CC18A25F756EC00B10785 /* CameraView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -713,6 +717,7 @@
 				DEVELOPMENT_TEAM = 7583755R28;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SimpleReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -737,6 +742,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7583755R28;
 				INFOPLIST_FILE = SimpleReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
